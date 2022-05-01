@@ -9,9 +9,11 @@ def search():
 	results_box = Text(window)
 	results_box.insert('end', search_text)
 	results_box.pack(side = 'bottom')
+	#text = wolframsearch.search.answer()
 def close():
-	window.quit()	
-
+	window.quit()
+	#wolfsearch.search(test)	
+	
 ### Variables ###
 ##Fonts & Widgets ##
 header_font = ("Helvetica", 25)
