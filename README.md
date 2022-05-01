@@ -3,6 +3,18 @@
 
 ### This project utilizes Wolfram Alpha's powerful search engine.  And to make life easier for the user, I decided to create a GUI built with tkinter. 
 
+#### Requirements:
+You will need tkinter and Wolfram's library. you can use the following to install it.
+```python
+### This upgrades pip 
+pip3 install --upgrade pip
+### This installs tkinter library. Don't be surprised if you already have this installed
+pip3 install tkinter 
+### This installs Wolfram Alpha's library
+pip3 install wolframalpha
+```
+
+
 #### Please note: 
 For this project and testing purposes, I am using my own developer API code. 
 
